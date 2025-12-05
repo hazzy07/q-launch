@@ -1,16 +1,49 @@
-# React + Vite
+# QLaunch #
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QLaunch is a web application built with React for displaying, filtering, and interacting with digital assets. It features grid and list views, filtering by market cap and volume, and detailed asset pages with charts and comments.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ -> Grid and list view of assets
+ -> Filter by market cap and 24h volume
+ -> Detailed asset pages with images, market data, and charts
+ -> Comment tabs for user interaction
+ -> Live chat component
+ -> Toggle buttons for settings like NSFW and Animation
+ ## Tech Stack
 
-## React Compiler
+Frontend: React, Tailwind CSS
+Icons: react-icons
+Routing: react-router-dom
+Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##Clone the repository:
 
-## Expanding the ESLint configuration
+git clone https://github.com/hazzy07/q-launch.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Install dependencies:
+
+cd q-launch
+npm install
+
+
+ ## Run the app:
+
+npm start
+
+Open http://localhost:3000
+ in your browser.
+
+## Folder Structure
+
+/src/assets – Images and assets
+
+/src/components – Reusable components
+
+/src/pages – Page-level components
+
+/src/routes – React Router configuration
+
+## License
+
+MIT License
